@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_uefa"
+            android:checked="true"
+            android:icon="@drawable/ic_vagas_new"
+            android:title="Nova Vaga" />
+        <item
+            android:id="@+id/nav_libertadores"
+            android:icon="@drawable/ic_vagas_all"
+            android:title="Todas vagas" />
+        <item
+            android:id="@+id/nav_afc"
+            android:icon="@drawable/ic_vagas_applyed"
+            android:title="Vagas com candidatos" />
+    </group>
+</menu>
